@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		28C694391E54B66E18DDFC281D426842 /* FritzVisionHumanPoseModelAccurate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 733B97E08FDFF77B27483D0A744CC2E9 /* Build configuration list for PBXAggregateTarget "FritzVisionHumanPoseModelAccurate" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9FCC20234E0F007EC698EC9A371CF815 /* PBXTargetDependency */,
+			);
+			name = FritzVisionHumanPoseModelAccurate;
+		};
+		70A97075D6F92342D33141F4989A4760 /* FritzVisionHumanPoseModelFast */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2C036E0B1171EDE9BC767614A5879C45 /* Build configuration list for PBXAggregateTarget "FritzVisionHumanPoseModelFast" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9AA0B826FB7A1665FA93380CD289042C /* PBXTargetDependency */,
+			);
+			name = FritzVisionHumanPoseModelFast;
+		};
+		D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EE1D5A2A624E957351B1A5C81F852EBD /* Build configuration list for PBXAggregateTarget "FritzBase" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FritzBase;
+		};
+		D7C54CB27BDFBE580478C5EFAEA9AC37 /* FritzVisionHumanPoseModelSmall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E57ACE292254F4CC728834FACE791657 /* Build configuration list for PBXAggregateTarget "FritzVisionHumanPoseModelSmall" */;
+			buildPhases = (
+			);
+			dependencies = (
+				04BB344C2CF0D5372D2E73799E592989 /* PBXTargetDependency */,
+			);
+			name = FritzVisionHumanPoseModelSmall;
+		};
+		FD4D230B022BCBFF67A5E99BA7AA380B /* Fritz */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3F498BF2F0FA058AEF35FF9AAC7D05BE /* Build configuration list for PBXAggregateTarget "Fritz" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2E1341E94B843D22A33D65A5E2D5E587 /* PBXTargetDependency */,
+				A20136C2D1E26EFC88835431A9E59C36 /* PBXTargetDependency */,
+				7CECE025F432C8E0C5D71349DE9BC2ED /* PBXTargetDependency */,
+				E1ED0EB040FD99D7569F69FADB27F686 /* PBXTargetDependency */,
+			);
+			name = Fritz;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		090E08B57A2651A48B076A571E6DA7DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7BA27D610F8A88BD3D77AB3C75158102 /* Pods-SafeSpace-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B4CC42CA620325B55373CD1F8C0BFE /* Pods-SafeSpace-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8F424A1D9BDC38D7E7B8ABBFB11E3EA /* Pods-SafeSpace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C290D35C3A673B787E898AD2E8403BBD /* Pods-SafeSpace-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E741453E9975C2DC1074FDCEDF799C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C54CB27BDFBE580478C5EFAEA9AC37;
+			remoteInfo = FritzVisionHumanPoseModelSmall;
+		};
+		439A2AFC4DA538570BA07AC1BBEC1389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AE921386E3F53A09FA4AE6610DCA6A;
+			remoteInfo = FritzBase;
+		};
+		4487294A7FBC891DCBAA6564C5EB6DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C694391E54B66E18DDFC281D426842;
+			remoteInfo = FritzVisionHumanPoseModelAccurate;
+		};
+		4AF212185C78AF321426C93B7F5DDF8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AE921386E3F53A09FA4AE6610DCA6A;
+			remoteInfo = FritzBase;
+		};
+		8CE488DD7C617BE6977E5243EAE4661B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AE921386E3F53A09FA4AE6610DCA6A;
+			remoteInfo = FritzBase;
+		};
+		905C7A1F56351C68B4C91BAD0344A847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70A97075D6F92342D33141F4989A4760;
+			remoteInfo = FritzVisionHumanPoseModelFast;
+		};
+		AEFE6CC93CBA2722CD3B31A2E8981B46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AE921386E3F53A09FA4AE6610DCA6A;
+			remoteInfo = FritzBase;
+		};
+		B45D21B17106D90892A1C51C094E223D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C54CB27BDFBE580478C5EFAEA9AC37;
+			remoteInfo = FritzVisionHumanPoseModelSmall;
+		};
+		BB54CD006C0DEABA8C7407B849C7D921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C694391E54B66E18DDFC281D426842;
+			remoteInfo = FritzVisionHumanPoseModelAccurate;
+		};
+		EACBBAE9CDB8916B1091495297254F47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70A97075D6F92342D33141F4989A4760;
+			remoteInfo = FritzVisionHumanPoseModelFast;
+		};
+		ED2C8CB6BC9BA24B578727091C6C5814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4D230B022BCBFF67A5E99BA7AA380B;
+			remoteInfo = Fritz;
+		};
+		F10F862F4CFA084884D4EFA4EDB79320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AE921386E3F53A09FA4AE6610DCA6A;
+			remoteInfo = FritzBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FEC0BAB0201E50C30622138A3530A9B /* Fritz.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fritz.xcconfig; sourceTree = "<group>"; };
+		0FFF8EDBA950E771BF35A3BF179DDE5D /* FritzVisionHumanPoseModelAccurate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FritzVisionHumanPoseModelAccurate.xcconfig; sourceTree = "<group>"; };
+		1284D870F6BA5D3EF4873C6A1B5905C0 /* Pods-SafeSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeSpace.debug.xcconfig"; sourceTree = "<group>"; };
+		18573637FB841A0D094B90A5EF107E7C /* Pods-SafeSpace-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafeSpace-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DBBA37061048DC57DA37ED786B9CD82 /* Pods-SafeSpace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeSpace.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3DA874519CF15D0892005F326898E587 /* FritzManagedModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzManagedModel.framework; path = Frameworks/FritzManagedModel.framework; sourceTree = "<group>"; };
+		4D798BE6F76418850CA5B23D0FBD6A24 /* FritzVisionHumanPoseModelAccurate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzVisionHumanPoseModelAccurate.framework; path = Frameworks/FritzVisionHumanPoseModelAccurate.framework; sourceTree = "<group>"; };
+		50085A0771FD35F6469E42D4E42DE25E /* Fritz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fritz.framework; path = Frameworks/Fritz.framework; sourceTree = "<group>"; };
+		54743F8BC2B114DA31B4B16E64A0293B /* Pods-SafeSpace-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeSpace-frameworks.sh"; sourceTree = "<group>"; };
+		58F986504AC2D56C67865334AA28C067 /* FritzBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FritzBase.xcconfig; sourceTree = "<group>"; };
+		6D42901D7A0DA16D0436FCFC0BB2E9A0 /* Pods-SafeSpace-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafeSpace-Info.plist"; sourceTree = "<group>"; };
+		7A78ADDB72C1B4937CCBB739E132B301 /* FritzVisionHumanPoseModelSmall.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzVisionHumanPoseModelSmall.framework; path = Frameworks/FritzVisionHumanPoseModelSmall.framework; sourceTree = "<group>"; };
+		8BA391DA37E1E252EFD6E02D85DCE365 /* Pods-SafeSpace.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SafeSpace.modulemap"; sourceTree = "<group>"; };
+		9AC709CA7EE35EC57CA9FA0594B525A0 /* FritzVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzVision.framework; path = Frameworks/FritzVision.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B635E75B086BF200B5BE4707149AE481 /* Pods-SafeSpace-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafeSpace-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C290D35C3A673B787E898AD2E8403BBD /* Pods-SafeSpace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafeSpace-dummy.m"; sourceTree = "<group>"; };
+		C4B4CC42CA620325B55373CD1F8C0BFE /* Pods-SafeSpace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafeSpace-umbrella.h"; sourceTree = "<group>"; };
+		CB3CAAC179C30AC644D10EEA50607721 /* CoreMLHelpers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMLHelpers.framework; path = Frameworks/CoreMLHelpers.framework; sourceTree = "<group>"; };
+		DE6190C67C962850BA1E0E8692532472 /* FritzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzCore.framework; path = Frameworks/FritzCore.framework; sourceTree = "<group>"; };
+		E5AD0E1DAA676F735D75A0923D84BEE1 /* FritzVisionHumanPoseModelSmall.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FritzVisionHumanPoseModelSmall.xcconfig; sourceTree = "<group>"; };
+		FAA187E33EA4F9AA7C375294C96F62AF /* FritzVisionHumanPoseModelFast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FritzVisionHumanPoseModelFast.xcconfig; sourceTree = "<group>"; };
+		FD5C82EF45FE27CE7F5AA4CA6E7400EA /* Pods_SafeSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SafeSpace.framework; path = "Pods-SafeSpace.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6172249220BB0A2D55ADF6CEB17434 /* FritzVisionHumanPoseModelFast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FritzVisionHumanPoseModelFast.framework; path = Frameworks/FritzVisionHumanPoseModelFast.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BFBDD71CEFF04689897A162C9A1F2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090E08B57A2651A48B076A571E6DA7DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8525780D95576D796D44C21C2FECF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AC709CA7EE35EC57CA9FA0594B525A0 /* FritzVision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AD05A6B12EA509EE9139F2A5E79E630 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD0E1DAA676F735D75A0923D84BEE1 /* FritzVisionHumanPoseModelSmall.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FritzVisionHumanPoseModelSmall";
+			sourceTree = "<group>";
+		};
+		120F5BD6771AF249104D67E793DFB77A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD5C82EF45FE27CE7F5AA4CA6E7400EA /* Pods_SafeSpace.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25D98AF91FECC2F620373D05237463E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69F7B01ED57DF9E83E2487963FF02E80 /* Fritz */,
+				29A3C54446735B52CA953618C5F951DA /* FritzBase */,
+				CDFA3189FD6B3C9EA8832C3C2227624C /* FritzVisionHumanPoseModelAccurate */,
+				E6C64B7AA09EBC4E31890FCB4C6049E5 /* FritzVisionHumanPoseModelFast */,
+				C97102B1F66BC80EE4D22091B25F92C4 /* FritzVisionHumanPoseModelSmall */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		273D9C1C998403BBA3D273EBEB87CC23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FFF8EDBA950E771BF35A3BF179DDE5D /* FritzVisionHumanPoseModelAccurate.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FritzVisionHumanPoseModelAccurate";
+			sourceTree = "<group>";
+		};
+		28D22BF384F8AF5E0FAFB519715A8A10 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6813F97F7C5E6EFCACEABFBFD917CE98 /* Pods-SafeSpace */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29A3C54446735B52CA953618C5F951DA /* FritzBase */ = {
+			isa = PBXGroup;
+			children = (
+				5249AC94A0FC7E5E34F4381BC404E8EC /* Core */,
+				9F9F1C1AE88AFFCC7D3A76B239749512 /* CoreMLHelpers */,
+				29DF27EC5F0CA70B6F4994B16B73E66D /* ManagedModel */,
+				A4877E64C299E2CFCF21D2AF676875A2 /* Support Files */,
+				A470C5C25B2BB7467EAD0567A721E54D /* Vision */,
+			);
+			name = FritzBase;
+			path = FritzBase;
+			sourceTree = "<group>";
+		};
+		29DF27EC5F0CA70B6F4994B16B73E66D /* ManagedModel */ = {
+			isa = PBXGroup;
+			children = (
+				532D33EB76655C4EC8F8299877D7CCAA /* Frameworks */,
+			);
+			name = ManagedModel;
+			sourceTree = "<group>";
+		};
+		443773F436C4116C712E99D24CB6D050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE6172249220BB0A2D55ADF6CEB17434 /* FritzVisionHumanPoseModelFast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5249AC94A0FC7E5E34F4381BC404E8EC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9E9B2548A27D0C5F1DC0D2DDDD52A550 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		532D33EB76655C4EC8F8299877D7CCAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DA874519CF15D0892005F326898E587 /* FritzManagedModel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6813F97F7C5E6EFCACEABFBFD917CE98 /* Pods-SafeSpace */ = {
+			isa = PBXGroup;
+			children = (
+				8BA391DA37E1E252EFD6E02D85DCE365 /* Pods-SafeSpace.modulemap */,
+				B635E75B086BF200B5BE4707149AE481 /* Pods-SafeSpace-acknowledgements.markdown */,
+				18573637FB841A0D094B90A5EF107E7C /* Pods-SafeSpace-acknowledgements.plist */,
+				C290D35C3A673B787E898AD2E8403BBD /* Pods-SafeSpace-dummy.m */,
+				54743F8BC2B114DA31B4B16E64A0293B /* Pods-SafeSpace-frameworks.sh */,
+				6D42901D7A0DA16D0436FCFC0BB2E9A0 /* Pods-SafeSpace-Info.plist */,
+				C4B4CC42CA620325B55373CD1F8C0BFE /* Pods-SafeSpace-umbrella.h */,
+				1284D870F6BA5D3EF4873C6A1B5905C0 /* Pods-SafeSpace.debug.xcconfig */,
+				2DBBA37061048DC57DA37ED786B9CD82 /* Pods-SafeSpace.release.xcconfig */,
+			);
+			name = "Pods-SafeSpace";
+			path = "Target Support Files/Pods-SafeSpace";
+			sourceTree = "<group>";
+		};
+		69F7B01ED57DF9E83E2487963FF02E80 /* Fritz */ = {
+			isa = PBXGroup;
+			children = (
+				F562081A8621D25BDE3D629575B285F5 /* Support Files */,
+			);
+			name = Fritz;
+			path = Fritz;
+			sourceTree = "<group>";
+		};
+		9E9B2548A27D0C5F1DC0D2DDDD52A550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50085A0771FD35F6469E42D4E42DE25E /* Fritz.framework */,
+				DE6190C67C962850BA1E0E8692532472 /* FritzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F9F1C1AE88AFFCC7D3A76B239749512 /* CoreMLHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				C52A76FBCDACA2423BCE9D3C9FCD00C7 /* Frameworks */,
+			);
+			name = CoreMLHelpers;
+			sourceTree = "<group>";
+		};
+		A470C5C25B2BB7467EAD0567A721E54D /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				0A8525780D95576D796D44C21C2FECF8 /* Frameworks */,
+			);
+			name = Vision;
+			sourceTree = "<group>";
+		};
+		A4877E64C299E2CFCF21D2AF676875A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58F986504AC2D56C67865334AA28C067 /* FritzBase.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FritzBase";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C52A76FBCDACA2423BCE9D3C9FCD00C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CAAC179C30AC644D10EEA50607721 /* CoreMLHelpers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C97102B1F66BC80EE4D22091B25F92C4 /* FritzVisionHumanPoseModelSmall */ = {
+			isa = PBXGroup;
+			children = (
+				DD365D4900F425A382F163C1AB6FC9A9 /* Frameworks */,
+				0AD05A6B12EA509EE9139F2A5E79E630 /* Support Files */,
+			);
+			name = FritzVisionHumanPoseModelSmall;
+			path = FritzVisionHumanPoseModelSmall;
+			sourceTree = "<group>";
+		};
+		CDFA3189FD6B3C9EA8832C3C2227624C /* FritzVisionHumanPoseModelAccurate */ = {
+			isa = PBXGroup;
+			children = (
+				E53278D0F19D8F3DE365E34012769BE1 /* Frameworks */,
+				273D9C1C998403BBA3D273EBEB87CC23 /* Support Files */,
+			);
+			name = FritzVisionHumanPoseModelAccurate;
+			path = FritzVisionHumanPoseModelAccurate;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				25D98AF91FECC2F620373D05237463E1 /* Pods */,
+				120F5BD6771AF249104D67E793DFB77A /* Products */,
+				28D22BF384F8AF5E0FAFB519715A8A10 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D38FA126A0D4A2BBF140E9EB062D2CBE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA187E33EA4F9AA7C375294C96F62AF /* FritzVisionHumanPoseModelFast.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FritzVisionHumanPoseModelFast";
+			sourceTree = "<group>";
+		};
+		DD365D4900F425A382F163C1AB6FC9A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A78ADDB72C1B4937CCBB739E132B301 /* FritzVisionHumanPoseModelSmall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E53278D0F19D8F3DE365E34012769BE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D798BE6F76418850CA5B23D0FBD6A24 /* FritzVisionHumanPoseModelAccurate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6C64B7AA09EBC4E31890FCB4C6049E5 /* FritzVisionHumanPoseModelFast */ = {
+			isa = PBXGroup;
+			children = (
+				443773F436C4116C712E99D24CB6D050 /* Frameworks */,
+				D38FA126A0D4A2BBF140E9EB062D2CBE /* Support Files */,
+			);
+			name = FritzVisionHumanPoseModelFast;
+			path = FritzVisionHumanPoseModelFast;
+			sourceTree = "<group>";
+		};
+		F562081A8621D25BDE3D629575B285F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FEC0BAB0201E50C30622138A3530A9B /* Fritz.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fritz";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2F0CA2F9682C8335FD36F8DCDCB0213 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA27D610F8A88BD3D77AB3C75158102 /* Pods-SafeSpace-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A80444EC05B382D09E3889A4D73B28C /* Pods-SafeSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BE4E0A2B1B9E2D396AE5D60E2DC665 /* Build configuration list for PBXNativeTarget "Pods-SafeSpace" */;
+			buildPhases = (
+				D2F0CA2F9682C8335FD36F8DCDCB0213 /* Headers */,
+				06CCE1C21FDFA7B4731ED01C39F0BB5A /* Sources */,
+				9BFBDD71CEFF04689897A162C9A1F2D0 /* Frameworks */,
+				941BB0368AB5A031E41C68A213177E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7200D3EED9213B64218DECF9E60A88A /* PBXTargetDependency */,
+				16724A2F9CC0317AA8994E44BFBA6B00 /* PBXTargetDependency */,
+				F4001DF100DF3DEE9A92CBA09E9C81B5 /* PBXTargetDependency */,
+				2E832AA51A50F8C1BD94E9030CB6B980 /* PBXTargetDependency */,
+				DE8F505792FD7E0C2707685BEF31A02C /* PBXTargetDependency */,
+			);
+			name = "Pods-SafeSpace";
+			productName = "Pods-SafeSpace";
+			productReference = FD5C82EF45FE27CE7F5AA4CA6E7400EA /* Pods_SafeSpace.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 120F5BD6771AF249104D67E793DFB77A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD4D230B022BCBFF67A5E99BA7AA380B /* Fritz */,
+				D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */,
+				28C694391E54B66E18DDFC281D426842 /* FritzVisionHumanPoseModelAccurate */,
+				70A97075D6F92342D33141F4989A4760 /* FritzVisionHumanPoseModelFast */,
+				D7C54CB27BDFBE580478C5EFAEA9AC37 /* FritzVisionHumanPoseModelSmall */,
+				3A80444EC05B382D09E3889A4D73B28C /* Pods-SafeSpace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		941BB0368AB5A031E41C68A213177E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06CCE1C21FDFA7B4731ED01C39F0BB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F424A1D9BDC38D7E7B8ABBFB11E3EA /* Pods-SafeSpace-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BB344C2CF0D5372D2E73799E592989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */;
+			targetProxy = 8CE488DD7C617BE6977E5243EAE4661B /* PBXContainerItemProxy */;
+		};
+		16724A2F9CC0317AA8994E44BFBA6B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */;
+			targetProxy = AEFE6CC93CBA2722CD3B31A2E8981B46 /* PBXContainerItemProxy */;
+		};
+		2E1341E94B843D22A33D65A5E2D5E587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */;
+			targetProxy = 4AF212185C78AF321426C93B7F5DDF8C /* PBXContainerItemProxy */;
+		};
+		2E832AA51A50F8C1BD94E9030CB6B980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzVisionHumanPoseModelFast;
+			target = 70A97075D6F92342D33141F4989A4760 /* FritzVisionHumanPoseModelFast */;
+			targetProxy = 905C7A1F56351C68B4C91BAD0344A847 /* PBXContainerItemProxy */;
+		};
+		7CECE025F432C8E0C5D71349DE9BC2ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzVisionHumanPoseModelFast;
+			target = 70A97075D6F92342D33141F4989A4760 /* FritzVisionHumanPoseModelFast */;
+			targetProxy = EACBBAE9CDB8916B1091495297254F47 /* PBXContainerItemProxy */;
+		};
+		9AA0B826FB7A1665FA93380CD289042C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */;
+			targetProxy = F10F862F4CFA084884D4EFA4EDB79320 /* PBXContainerItemProxy */;
+		};
+		9FCC20234E0F007EC698EC9A371CF815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzBase;
+			target = D3AE921386E3F53A09FA4AE6610DCA6A /* FritzBase */;
+			targetProxy = 439A2AFC4DA538570BA07AC1BBEC1389 /* PBXContainerItemProxy */;
+		};
+		A20136C2D1E26EFC88835431A9E59C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzVisionHumanPoseModelAccurate;
+			target = 28C694391E54B66E18DDFC281D426842 /* FritzVisionHumanPoseModelAccurate */;
+			targetProxy = BB54CD006C0DEABA8C7407B849C7D921 /* PBXContainerItemProxy */;
+		};
+		B7200D3EED9213B64218DECF9E60A88A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fritz;
+			target = FD4D230B022BCBFF67A5E99BA7AA380B /* Fritz */;
+			targetProxy = ED2C8CB6BC9BA24B578727091C6C5814 /* PBXContainerItemProxy */;
+		};
+		DE8F505792FD7E0C2707685BEF31A02C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzVisionHumanPoseModelSmall;
+			target = D7C54CB27BDFBE580478C5EFAEA9AC37 /* FritzVisionHumanPoseModelSmall */;
+			targetProxy = 1E741453E9975C2DC1074FDCEDF799C4 /* PBXContainerItemProxy */;
+		};
+		E1ED0EB040FD99D7569F69FADB27F686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzVisionHumanPoseModelSmall;
+			target = D7C54CB27BDFBE580478C5EFAEA9AC37 /* FritzVisionHumanPoseModelSmall */;
+			targetProxy = B45D21B17106D90892A1C51C094E223D /* PBXContainerItemProxy */;
+		};
+		F4001DF100DF3DEE9A92CBA09E9C81B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FritzVisionHumanPoseModelAccurate;
+			target = 28C694391E54B66E18DDFC281D426842 /* FritzVisionHumanPoseModelAccurate */;
+			targetProxy = 4487294A7FBC891DCBAA6564C5EB6DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131CBFE90CE2D4B3E65178C8DBC0B5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AD0E1DAA676F735D75A0923D84BEE1 /* FritzVisionHumanPoseModelSmall.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2E261F4A1527A9374EFD5578ED217744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AD0E1DAA676F735D75A0923D84BEE1 /* FritzVisionHumanPoseModelSmall.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35B2BF11483AEDC8150E4B0D8C3A8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1284D870F6BA5D3EF4873C6A1B5905C0 /* Pods-SafeSpace.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SafeSpace/Pods-SafeSpace-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SafeSpace/Pods-SafeSpace.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5986F2C3B0030D4E4032482F9435E2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F986504AC2D56C67865334AA28C067 /* FritzBase.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67E9C684A781FEF1D598DB5D0D81CB59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBBA37061048DC57DA37ED786B9CD82 /* Pods-SafeSpace.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SafeSpace/Pods-SafeSpace-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SafeSpace/Pods-SafeSpace.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E4DF76D100D7E52827E16F8BCA8ACF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA187E33EA4F9AA7C375294C96F62AF /* FritzVisionHumanPoseModelFast.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9368A471DA1E296F13E522DD8B5B541B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA187E33EA4F9AA7C375294C96F62AF /* FritzVisionHumanPoseModelFast.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B0AD916BCBD6A95A05E73646FCBF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F986504AC2D56C67865334AA28C067 /* FritzBase.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7FF6180DBD6EB1D5C764719DE5F1129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEC0BAB0201E50C30622138A3530A9B /* Fritz.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0CE6E2B2DDF5C9D948D6A234D0DC5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FFF8EDBA950E771BF35A3BF179DDE5D /* FritzVisionHumanPoseModelAccurate.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4A597FA409EEBA5AF8368CC70CB1DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FFF8EDBA950E771BF35A3BF179DDE5D /* FritzVisionHumanPoseModelAccurate.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE61DA346D7B3775AE4D631E017950B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEC0BAB0201E50C30622138A3530A9B /* Fritz.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C036E0B1171EDE9BC767614A5879C45 /* Build configuration list for PBXAggregateTarget "FritzVisionHumanPoseModelFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4DF76D100D7E52827E16F8BCA8ACF1 /* Debug */,
+				9368A471DA1E296F13E522DD8B5B541B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39BE4E0A2B1B9E2D396AE5D60E2DC665 /* Build configuration list for PBXNativeTarget "Pods-SafeSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B2BF11483AEDC8150E4B0D8C3A8198 /* Debug */,
+				67E9C684A781FEF1D598DB5D0D81CB59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F498BF2F0FA058AEF35FF9AAC7D05BE /* Build configuration list for PBXAggregateTarget "Fritz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE61DA346D7B3775AE4D631E017950B4 /* Debug */,
+				A7FF6180DBD6EB1D5C764719DE5F1129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733B97E08FDFF77B27483D0A744CC2E9 /* Build configuration list for PBXAggregateTarget "FritzVisionHumanPoseModelAccurate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE6E2B2DDF5C9D948D6A234D0DC5F1 /* Debug */,
+				C4A597FA409EEBA5AF8368CC70CB1DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E57ACE292254F4CC728834FACE791657 /* Build configuration list for PBXAggregateTarget "FritzVisionHumanPoseModelSmall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131CBFE90CE2D4B3E65178C8DBC0B5DD /* Debug */,
+				2E261F4A1527A9374EFD5578ED217744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1D5A2A624E957351B1A5C81F852EBD /* Build configuration list for PBXAggregateTarget "FritzBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5986F2C3B0030D4E4032482F9435E2FE /* Debug */,
+				95B0AD916BCBD6A95A05E73646FCBF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

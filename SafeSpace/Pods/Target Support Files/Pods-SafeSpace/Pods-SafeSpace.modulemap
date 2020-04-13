@@ -1,0 +1,6 @@
+framework module Pods_SafeSpace {
+  umbrella header "Pods-SafeSpace-umbrella.h"
+
+  export *
+  module * { export * }
+}
